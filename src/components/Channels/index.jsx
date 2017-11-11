@@ -7,7 +7,7 @@ class ChannelCell extends Component {
         width: "100%",
         marginBottom: "20px"
       }}>
-        <span>{"#" + this.props.name}</span> 
+        <span>{"#" + this.props.name}</span>
       </div>
     );
   }
