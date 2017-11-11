@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Messenger from './pages/Messenger';
-import registerServiceWorker from './registerServiceWorker';
+import Commit from 'pages/Commit';
+
+import registerServiceWorker from 'registerServiceWorker';
 
 import {
-    BrowserRouter as Router,
-    Route,
+  BrowserRouter as Router,
+  Route
 } from 'react-router-dom';
 
+
+import './index.css';
+
 const App = () => (
-  <Router basename="/">
-    <Route exact path="/" component={Messenger} />
+  <Router basename="/commit">
+    <Route exact path="/" component={Commit} />
   </Router>
 );
 
