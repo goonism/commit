@@ -7,7 +7,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
   display: fixed;
   top: 0;
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
 `;
 
