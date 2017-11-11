@@ -1,4 +1,7 @@
+.channelCell{
+  background: red;
+}
 
-.channelCell:hover {
-  background-color: "yellow"
+.channelCell:hover{
+  background: yellow
 }

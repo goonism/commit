@@ -5,7 +5,9 @@ class ChannelCell extends Component {
     return (
       <div style={{
         width: "100%",
-        marginBottom: "20px"
+        marginBottom: "20px",
+
+        backgroundColor: "#392c38",
       }}>
         <span>{"#" + this.props.name}</span>
       </div>
@@ -16,10 +18,10 @@ class ChannelCell extends Component {
 export default class Channels extends Component {
   render() {
     return (
-      <div style={{
+      <div className="channelCell" style={{
         width: "100%",
         height: "100vh",
-        backgroundColor: "#4D394B",
+        backgroundColor: "#392c38",
         color: "white",
         fontFamily: "Helvetica, Arial, Sans-Serif",
       }}>
