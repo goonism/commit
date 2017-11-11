@@ -13,7 +13,7 @@ class ChannelCell extends Component {
   }
 }
 
-class Channels extends Component {
+export default class Channels extends Component {
   render() {
     return (
       <div style={{
@@ -30,5 +30,3 @@ class Channels extends Component {
     );
   }
 }
-
-export default Channels;
