@@ -1,4 +1,41 @@
+.messageCell{
+  background: red;
+}
 
 .messageCell:hover {
-  background-color: "gray"
+  background: green;
+  color: #FFF;
+}
+
+.input {
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.input input[type="text"] {
+  outline: 0;
+  padding: 0 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 10px;
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.input input[type="submit"] {
+  height: 30px;
+  width: 10%;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.input input[type="submit"]:hover {
+  background: green;
+  color: #FFF;
 }

@@ -5,26 +5,33 @@ class MessageCell extends Component {
   render() {
     return (
       <div className="messageCell" style={{
-        backgroundColor: "red",
         width: "100%",
-        minHeight: "40px",
+        minHeight: "10vh",
         maxHeight: "auto",
         margin: "10px"
       }}>
-        <span>{this.props.text}</span> 
+        <span>{this.props.text}</span>
       </div>
     );
   }
 }
 
 export default class Messages extends Component {
+
   render() {
     return (
-      <div style={{
-        width: "100%",
-        height: "100vh"
-      }}>
-        <MessageCell text="hello"/>
+      <div>
+
+        <MessageCell text="Hey you"/>
+        <MessageCell text="Hover "/>
+        <MessageCell text="over"/>
+        <MessageCell text="me"/>
+        <MessageCell text="I turn green"/>
+
+        <form className="input" onSubmit={(e) => this.submitMessage(e)}>
+          <input type="text" ref="msg" />
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     );
   }
