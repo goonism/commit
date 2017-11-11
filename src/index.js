@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Messenger from './pages/Messenger';
-import Home from './pages/Home';
-import Footer from './sections/Footer';
-import Header from './sections/Header';
 import registerServiceWorker from './registerServiceWorker';
 
 import {
@@ -12,13 +9,9 @@ import {
 } from 'react-router-dom';
 
 const App = () => (
-    <Router basename="/">
-      <div>
-        <div>
-          <Route exact path="/" component={Messenger} />
-        </div>
-      </div>
-    </Router>
+  <Router basename="/">
+    <Route exact path="/" component={Messenger} />
+  </Router>
 );
 
 const rootElement = document.getElementById('root')

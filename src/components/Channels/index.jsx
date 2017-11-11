@@ -18,6 +18,7 @@ export default class Channels extends Component {
     return (
       <div style={{
         width: "100%",
+        height: "100vh",
         backgroundColor: "#4D394B"
       }}>
         <div style={{
