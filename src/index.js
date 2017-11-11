@@ -14,12 +14,9 @@ import {
 const App = () => (
     <Router basename="/">
       <div>
-        <Header />
         <div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/messenger" component={Messenger} />
+          <Route exact path="/" component={Messenger} />
         </div>
-        <Footer />
       </div>
     </Router>
 );
